@@ -1,6 +1,6 @@
 # Shrike-Scope
 
-A laptop-based oscilloscope built with the **Vicharak Shrike-Fi (ESP32-S3)**.
+A laptop-based oscilloscope built with the **Vicharak Shrike-Fi **.
 
 The ESP32-S3 samples an analog signal on GPIO1 and streams timestamped voltage readings over USB serial. A Python application on the laptop plots the live waveform and calculates voltage and frequency measurements in real time.
 
@@ -85,15 +85,6 @@ Connect a jumper wire between **GPIO4** and **GPIO1**. The display should show a
 - Instantaneous, minimum, and maximum voltage
 - Peak-to-peak amplitude (Vpp)
 - Approximate frequency (for clean repetitive signals ≥ 0.15 V amplitude)
-
----
-
-## Limitations
-
-- Single channel (GPIO1) only.
-- No probe attenuation, buffering, or isolation — learning tool, not a lab instrument.
-- Useful bandwidth is well below the 250 Hz Nyquist limit due to sampling jitter.
-- ADC accuracy is not independently calibrated.
 
 ---
 
