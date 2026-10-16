@@ -1,6 +1,6 @@
 # Shrike-Scope
 
-A laptop-based oscilloscope built with the **Vicharak Shrike-Fi **.
+A oscilloscope built with the **Vicharak Shrike-Fi **.
 
 The ESP32-S3 samples an analog signal on GPIO1 and streams timestamped voltage readings over USB serial. A Python application on the laptop plots the live waveform and calculates voltage and frequency measurements in real time.
 
